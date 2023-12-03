@@ -16,6 +16,8 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
         SceneManager.LoadScene("Lobby");
     }
 
+   
+
     void Start()
     {
         PhotonNetwork.ConnectUsingSettings();
